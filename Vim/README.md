@@ -40,4 +40,16 @@ You can also put numbers in front these commands to move the cursor a certain am
 
 ### Deleting Lines & Un-doing Them
 - Delete a line - `dd`
-- Revert changes - `u` **This reverts all deletions made**
+- Revert changes - `u` **This reverts each deleted line made**
+- Redo changes - `control` + `r`
+
+### Copying & Pasting 
+- Copy a line - `yy`
+- Paste the copied line - `p` **This will paste the line below**
+- Paste line above the cursor - `P`
+
+When you delete a line it actually pastes it into the clipboard, where you can then paste the deleted line by using `p` or `P`
+
+You can also delete several lines of code by enetring the number follwed by `dd`
+- Delete 10 lines - `10` + `dd`
+
