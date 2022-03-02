@@ -38,6 +38,8 @@ The trackpad or mouse won't work in Vim! To move the cursor you  can use the nav
 - Move cursor to beginning of line - `0`
 - Move cursor to where text starts - `^`
 - Move cursor to end of the line - `$`
+- Move cursor to EXACT character within the line - `f` + character **Only works if character is in that line!**
+- Move cursor to BEFORE character within the line - `t` + character **Only works if character is in that line!** 
 
 You can also put numbers in front these commands to move the cursor a certain amount of places:
 
