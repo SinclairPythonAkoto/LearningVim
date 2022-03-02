@@ -30,6 +30,8 @@ The trackpad or mouse won't work in Vim! To move the cursor you  can use the nav
 - Move to BOTTOM - `gg`
 - Skip blocks of code DOWN - `}`
 - Skip blocks of code UP - `{`
+- Move cursor FORWARD to next word - `w`
+- Move cursor BACKWARD to previous word - `b`
 
 You can also put numbers in front these commands to move the cursor a certain amount of places:
 
