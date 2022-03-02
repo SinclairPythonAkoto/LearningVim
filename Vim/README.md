@@ -22,7 +22,7 @@ Don't be one of those who cannot exit Vim ! You can close Vim with the folling c
 
 ### Moving The Cursor 
 The trackpad or mouse won't work in Vim! To move the cursor you  can use the navigation arrows, or do what real programmers do and use the keyboard to navigate through the content in your files.
-- Move UP - `k``
+- Move UP - `k`
 - Move DOWN - `j`
 - Move RIGHT - `l`
 - Move LEFT - `h`
@@ -30,3 +30,8 @@ The trackpad or mouse won't work in Vim! To move the cursor you  can use the nav
 - Move to BOTTOM - `gg`
 - Skip blocks of code DOWN - `}`
 - Skip blocks of code UP - `{`
+You can also put numbers in front these commands to move the cursor a certain amount of places:
+- Move 50 lines down - `50k`
+- Move 20 lines up - `20k`
+- Move 10 code blocks up - `10{`
+- Moge 10 code blocks down - `10}`
