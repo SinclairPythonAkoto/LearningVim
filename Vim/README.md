@@ -31,7 +31,13 @@ The trackpad or mouse won't work in Vim! To move the cursor you  can use the nav
 - Skip blocks of code DOWN - `}`
 - Skip blocks of code UP - `{`
 - Move cursor FORWARD to next word - `w`
+- Move cursor FORWARD to next SPACE - `W`
 - Move cursor BACKWARD to previous word - `b`
+- Move cursor BACKWARD to previsuos SPACE - `B`
+- Move cursor to designated line - `:20` **move cursor to line 20**
+- Move cursor to beginning of line - `0`
+- Move cursor to where text starts - `^`
+- Move cursor to end of the line - `$`
 
 You can also put numbers in front these commands to move the cursor a certain amount of places:
 
@@ -57,9 +63,11 @@ You can also delete several lines of code by enetring the number follwed by `dd`
 
 ### Using Visual The Line 
 - Highlight your text - `SHIT` + `V` **CAPTIAL V** 
+
 When you have your text highleted you can then operate the same commands such as deleting code blocks, copying, pasting etc.
 
 ### Add New Line
 - Add a new line below cursor - `o`
 - Add a new line above cursor - `SHIFT` + `O` **CAPITAL O**
+
 This create a new line and puts you into **INSERT** mode
