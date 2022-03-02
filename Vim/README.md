@@ -38,15 +38,15 @@ The trackpad or mouse won't work in Vim! To move the cursor you  can use the nav
 - Move cursor to beginning of line - `0`
 - Move cursor to where text starts - `^`
 - Move cursor to end of the line - `$`
-- Move cursor to EXACT character within the line - `f` + character **Only works if character is in that line!**
-- Move cursor to BEFORE character within the line - `t` + character **Only works if character is in that line!** 
+- Move cursor to EXACT character within the line - `f` + *character* **Only works if character is in that line!**
+- Move cursor to BEFORE character within the line - `t` + *character* **Only works if character is in that line!** 
 
 You can also put numbers in front these commands to move the cursor a certain amount of places:
 
-- Move 50 lines down - `50k`
-- Move 20 lines up - `20k`
-- Move 10 code blocks up - `10{`
-- Moge 10 code blocks down - `10}`
+- Move 50 lines down - `50` + `k`
+- Move 20 lines up - `20` + `k`
+- Move 10 code blocks up - `10` + `{`
+- Moge 10 code blocks down - `10` + `}`
 
 ### Deleting Lines & Un-doing Them
 - Delete a line - `dd`
@@ -64,7 +64,8 @@ You can also delete several lines of code by enetring the number follwed by `dd`
 - Delete 10 lines - `10` + `dd`
 
 ### Using Visual The Line 
-- Highlight your text - `SHIT` + `V` **CAPTIAL V** 
+- Highlight your text via lines - `SHIFT` + `V` **CAPTIAL V**
+- Highlight individual characters - `v`
 
 When you have your text highleted you can then operate the same commands such as deleting code blocks, copying, pasting etc.
 
@@ -73,3 +74,17 @@ When you have your text highleted you can then operate the same commands such as
 - Add a new line above cursor - `SHIFT` + `O` **CAPITAL O**
 
 This create a new line and puts you into **INSERT** mode
+
+### Changing Words
+- Change a word - `cw`
+- Change a wole line from point of cursor - `SHIFT` + `C`
+- Change word(s) up until a specified character - `ct` + *character*
+
+This removes the word where the cursor is and puts it into **INSERT** mode where you can then place the new text
+
+### Deleting Words
+- Delete a word - `dw`
+- Delete rest of the line from point of cursor - `SHIFT` + `D` **CAPITAL D**
+- Delete word(s) up until a specified character - `dt` + *character*
+
+This removes the word. The cursor needs to be at the beginning of the word, if it is placed in the middle or at the end it will only partially delete the chosen word.
