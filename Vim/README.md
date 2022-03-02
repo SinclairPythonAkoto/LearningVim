@@ -10,6 +10,8 @@ SOURCE: **https://github.com/SinclairPythonAkoto/LearningVim.git**
 
 Vim Cheet Sheet: **https://vim.rtorr.com**
 
+### Inserting Data
+To  make changes to an exsiting or new file you press `i` to activate the **Insert** mode.
 
 ### Exiting Vim
 Don't be one of those who cannot exit Vim ! You can close Vim with the folling commands:
@@ -17,3 +19,5 @@ Don't be one of those who cannot exit Vim ! You can close Vim with the folling c
 - Press `esc` then `:q!` - quit without saving (after changes)
 - Press `esc` then `:wq` - save changes and then quit
 - Press `esc` then `:w`  - save chnages but keep file open
+
+
