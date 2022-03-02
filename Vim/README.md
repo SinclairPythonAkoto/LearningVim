@@ -30,8 +30,14 @@ The trackpad or mouse won't work in Vim! To move the cursor you  can use the nav
 - Move to BOTTOM - `gg`
 - Skip blocks of code DOWN - `}`
 - Skip blocks of code UP - `{`
+
 You can also put numbers in front these commands to move the cursor a certain amount of places:
+
 - Move 50 lines down - `50k`
 - Move 20 lines up - `20k`
 - Move 10 code blocks up - `10{`
 - Moge 10 code blocks down - `10}`
+
+### Deleting Lines & Un-doing Them
+- Delete a line - `dd`
+- Revert changes - `u` **This reverts all deletions made**
