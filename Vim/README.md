@@ -20,4 +20,9 @@ Don't be one of those who cannot exit Vim ! You can close Vim with the folling c
 - Press `esc` then `:wq` - save changes and then quit
 - Press `esc` then `:w`  - save chnages but keep file open
 
-
+### Moving The Cursor 
+The trackpad or mouse won't work in Vim! To move the cursor you  can use the navigation arrows, or do what real programmers do and use the keyboard to navigate through the content in your files.
+- Move UP - `k``
+- Move DOWN - `j`
+- Move RIGHT - `l`
+- Move LEFT - `h`
