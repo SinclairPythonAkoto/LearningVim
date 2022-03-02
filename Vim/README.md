@@ -11,7 +11,7 @@ SOURCE: **https://github.com/SinclairPythonAkoto/LearningVim.git**
 Vim Cheet Sheet: **https://vim.rtorr.com**
 
 
-###Exiting Vim
+### Exiting Vim
 Don't be one of those who cannot exit Vim ! You can close Vim with the folling commands:
 - Press `esc` then `:q`  - quit without saving (no changes)
 - Press `esc` then `:q!` - quit without saving (after changes)
