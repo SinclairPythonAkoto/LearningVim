@@ -27,4 +27,6 @@ The trackpad or mouse won't work in Vim! To move the cursor you  can use the nav
 - Move RIGHT - `l`
 - Move LEFT - `h`
 - Move to TOP - `SHIFT` + `g` **CAPITAL G**
-- Move to BOTTOM - `gg` 
+- Move to BOTTOM - `gg`
+- Skip blocks of code DOWN - `}`
+- Skip blocks of code UP - `{`
