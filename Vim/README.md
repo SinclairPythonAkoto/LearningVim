@@ -11,7 +11,7 @@ SOURCE: **https://github.com/SinclairPythonAkoto/LearningVim.git**
 Vim Cheet Sheet: **https://vim.rtorr.com**
 
 ### Inserting Data
-To  make changes to an exsiting or new file you press `i` to activate the **Insert** mode.
+To  make changes to an exsiting or new file you press `i` to activate the **INSERT** mode.
 
 ### Exiting Vim
 Don't be one of those who cannot exit Vim ! You can close Vim with the folling commands:
@@ -57,3 +57,7 @@ You can also delete several lines of code by enetring the number follwed by `dd`
 - Highlight your text - `SHIT` + `V` **CAPTIAL V** 
 When you have your text highleted you can then operate the same commands such as deleting code blocks, copying, pasting etc.
 
+### Add New Line
+- Add a new line below cursor - `o`
+- Add a new line above cursor - `SHIFT` + `O` **CAPITAL O**
+This create a new line and puts you into **INSERT** mode
