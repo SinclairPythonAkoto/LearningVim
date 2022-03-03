@@ -88,6 +88,8 @@ This create a new line and puts you into **INSERT** mode
 - Change a word - `cw`
 - Change a wole line from point of cursor - `SHIFT` + `C`
 - Change word(s) up until a specified character - `ct` + *character*
+- Replace a character where cursor is - `r`
+- Replace a sequence of characters from where the cursor starts - `SHIFT` + `R` **CAPITAL R** *This overwrites previous characters from where the cursor starts*
 
 This removes the word where the cursor is and puts it into **INSERT** mode where you can then place the new text
 
