@@ -6,7 +6,7 @@ As I learn, I will be creating new files and modifying old ones.
 
 I will also create a list of Vim commands in this README file as I go along.
 
-SOURCE: **https://github.com/SinclairPythonAkoto/LearningVim.git**
+SOURCE: **https://www.youtube.com/watch?v=IiwGbcd8S7I**
 
 Vim Cheet Sheet: **https://vim.rtorr.com**
 
