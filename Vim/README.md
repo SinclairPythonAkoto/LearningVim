@@ -95,5 +95,11 @@ This removes the word where the cursor is and puts it into **INSERT** mode where
 - Delete a word - `dw`
 - Delete rest of the line from point of cursor - `SHIFT` + `D` **CAPITAL D**
 - Delete word(s) up until a specified character - `dt` + *character*
+- Delete character where cursor is - `x`
 
 This removes the word. The cursor needs to be at the beginning of the word, if it is placed in the middle or at the end it will only partially delete the chosen word.
+
+### Lowercase / Uppercase Letters
+- Change a letter to lowercase / uppercase - `~`
+
+If the letter is a lowercase `~` will change it to an uppercase and vice versa
