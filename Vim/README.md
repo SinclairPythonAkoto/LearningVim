@@ -12,6 +12,9 @@ Vim Cheet Sheet: **https://vim.rtorr.com**
 
 ### Inserting Data
 To  make changes to an exsiting or new file you press `i` to activate the **INSERT** mode.
+- Insert directly where cursor is - `i`
+- Insert to the right of cursor - `a`
+- Insert at the end of the line - `A`
 
 ### Exiting Vim
 Don't be one of those who cannot exit Vim ! You can close Vim with the folling commands:
@@ -40,6 +43,8 @@ The trackpad or mouse won't work in Vim! To move the cursor you  can use the nav
 - Move cursor to end of the line - `$`
 - Move cursor to EXACT character within the line - `f` + *character* **Only works if character is in that line!**
 - Move cursor to BEFORE character within the line - `t` + *character* **Only works if character is in that line!** 
+- Toggle cursor to words of the same instance - `*` **This moves cursor to the next matching word** *This also prints out at the bottom of your Vim screen the word/characters your are searching for*
+- Find the next instance of character within the line - `f` + *character* + `;` **This will keep searching for the given character in that line**
 
 You can also put numbers in front these commands to move the cursor a certain amount of places:
 
@@ -68,6 +73,10 @@ You can also delete several lines of code by enetring the number follwed by `dd`
 - Highlight individual characters - `v`
 
 When you have your text highleted you can then operate the same commands such as deleting code blocks, copying, pasting etc.
+
+You can highlight sections of your text and then change it by pressing `c`
+- Highlight & change by lines - `SHIFT` + `V` + `c`
+- Highlight & change by characters - `SHIFT` + `v` + `c`
 
 ### Add New Line
 - Add a new line below cursor - `o`
