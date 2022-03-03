@@ -103,3 +103,8 @@ This removes the word. The cursor needs to be at the beginning of the word, if i
 - Change a letter to lowercase / uppercase - `~`
 
 If the letter is a lowercase `~` will change it to an uppercase and vice versa
+
+### Using The Period Command
+- Re-doing the last previous command - `.`
+
+This executes the last command you just done; so if you just deleted a line it will delete another line if you press `.` again.  Another example would be if you just renamed a piece of text, if you moved to another line it would repeat the same command - *but the key thing is that it would rename it to the exact same word that you had changed previously*.  **This is good when repeatign lines of code**
