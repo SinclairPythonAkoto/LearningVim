@@ -114,3 +114,15 @@ This executes the last command you just done; so if you just deleted a line it w
 ### Indentation
 - Indent cursor to the RIGHT - `>>`
 - Indent cursor to th eLEFT - `<<`
+
+### Search through file ###
+- `/<keyword>` - search forwards. `n` next matching word, `N` previous matching word
+- `?<keyword>` - search backwards. `n` next matching word, `N` previous mathcing word
+
+### Split the screen ###
+- `vsplit ~/<file_directory>` - to toggle through the split screens `^w + [hjkl]`
+
+### auto correct ###
+- `^x^n` - this will bring a list of the matching available word(s) previously used in your current file
+
+
